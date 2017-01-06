@@ -47,11 +47,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajh-oc-Er2">
+                                <rect key="frame" x="149" y="540" width="76" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="💀"/>
+                                <connections>
+                                    <action selector="killSkull:" destination="BYZ-38-t0r" eventType="touchUpInside" id="daP-SC-NrG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="btnPressMe" destination="4G7-OP-7FO" id="vBC-8K-cIt"/>
+                        <outlet property="btnSkull" destination="ajh-oc-Er2" id="h4G-7x-nd1"/>
                         <outlet property="lblMessage" destination="44o-rb-9Pn" id="W5c-Ah-GzW"/>
                         <outlet property="txtInputBox" destination="PGJ-8e-nwJ" id="LDe-Cp-fzX"/>
                     </connections>
